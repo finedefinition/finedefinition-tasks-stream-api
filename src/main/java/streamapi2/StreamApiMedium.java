@@ -48,13 +48,12 @@ public class StreamApiMedium {
      * Output : {"Odyssey", "Sun.ltd"}
      */
     public List<String> getCompanies(Map<String, Integer> input) {
-        List<String> collect = input.entrySet()
+        return input.entrySet()
                 .stream()
                 .filter(f -> f.getValue() > 0)
                 .map(b -> b.getKey())
                 .sorted()
                 .collect(Collectors.toList());
-        return collect;
     }
 
     /**
@@ -69,7 +68,6 @@ public class StreamApiMedium {
     public String convertAndModifyNumbers(List<Integer> numbers) {
         String collect = numbers.stream()
                 .map(i -> "(" + Integer.toBinaryString(i) + ")")
-                .map(n -> n.toString())
                 .collect(Collectors.joining("\n"));
         return collect;
     }

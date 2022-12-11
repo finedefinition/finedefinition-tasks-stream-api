@@ -20,16 +20,14 @@ public class StreamApi {
      */
 
     public Long calculateOccurrences(List<String> elements, String element) {
-        Long count = elements.stream().filter(element::equals).count();
-        return count;
+        return elements.stream().filter(element::equals).count();
     }
 
     /**
      * Given a List of Strings, return the Optional of its first element.
      */
     public Optional<String> getFirstElement(List<String> elements) {
-        Optional<String> o = elements.stream().findFirst();
-        return o;
+        return elements.stream().findFirst();
     }
 
     /**
