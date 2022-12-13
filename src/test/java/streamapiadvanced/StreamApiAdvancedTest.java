@@ -1,4 +1,4 @@
-package streamapi3;
+package streamapiadvanced;
 
 import java.util.ArrayList;
 import java.util.Arrays;

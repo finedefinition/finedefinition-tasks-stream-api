@@ -1,8 +1,7 @@
-package streamapi3;
+package streamapiadvanced;
 
 import java.util.*;
 import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 
 import static java.util.Comparator.comparing;
 

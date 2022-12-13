@@ -1,4 +1,4 @@
-package streamapi1;
+package streamapibase;
 
 import java.util.*;
 import java.util.stream.Collectors;

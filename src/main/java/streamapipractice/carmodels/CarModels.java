@@ -28,6 +28,8 @@ cars and returns a list of car models manufactured after 1955.
  */
 public class CarModels {
     public static List<String> getCarModels(List<Car> cars) {
-        return null;
+        return cars.stream().filter(f -> f.getYear() > 1955)
+                .map(f -> f.getModel())
+                .collect(Collectors.toList());
     }
 }
