@@ -1,4 +1,4 @@
-package streamapi2;
+package streamapimedium;
 
 import java.util.Collections;
 import java.util.List;

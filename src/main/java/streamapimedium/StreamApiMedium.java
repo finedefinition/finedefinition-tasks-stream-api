@@ -1,9 +1,7 @@
-package streamapi2;
+package streamapimedium;
 
 import java.util.*;
 import java.util.stream.Collectors;
-import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
 public class StreamApiMedium {
     /**

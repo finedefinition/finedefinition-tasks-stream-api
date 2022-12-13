@@ -1,4 +1,4 @@
-package streamapi1;
+package streamapibase;
 
 import java.util.Arrays;
 import java.util.Collections;
